@@ -1,5 +1,6 @@
 #! groovy
 
-import testclass
+import test.jenkins.testclass
 
-println 'here is some output'
+TestClass tc = new TestClass()
+
